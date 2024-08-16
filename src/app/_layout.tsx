@@ -1,14 +1,15 @@
 /* eslint-disable camelcase */
-import { Slot } from 'expo-router'
-import { View, StatusBar } from 'react-native'
+import '@/styles/global.css'
+
 import {
-  useFonts,
   Inter_400Regular,
   Inter_500Medium,
   Inter_600SemiBold,
+  useFonts,
 } from '@expo-google-fonts/inter'
+import { Slot } from 'expo-router'
+import { StatusBar, View } from 'react-native'
 
-import '@/styles/global.css'
 import { Loading } from '@/components/loading'
 
 export default function Layout() {
